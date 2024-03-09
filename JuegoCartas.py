@@ -31,5 +31,5 @@ while True:
         print("Adios, Gracias por dejar el dinero")
         break
     else: 
-        print('\n'*20)     
+        print('\n'*20)      
 print(juego)
