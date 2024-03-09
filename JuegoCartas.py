@@ -1,8 +1,8 @@
 import random
 
-#el juego del casino
+#el juego del casino nuevo
 juego = []
-while True:
+while True: 
     print("Bienvanidos al casino")
     jugador = random.randint(2,26)
     dealer = random.randint(2,26)
@@ -27,7 +27,9 @@ while True:
                 break  
             
     pregunta = input("desea salir del juego? s/n")
-    if pregunta == "s": break
+    if pregunta == "s": 
+        print("Adios, Gracias por dejar el dinero")
+        break
     else: 
         print('\n'*20)     
 print(juego)
